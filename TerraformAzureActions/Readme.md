@@ -5,25 +5,25 @@ Implementing Steps for creating azure resources using GitHub action plans and te
 
 1.	Create a new GitHub repo for terraform configuration files and the Terraform configuration file contains following code.
 
-      terraform {
-        required_providers {
-          azurerm = {
-            source  = "hashicorp/azurerm"
-            version = "2.84.0"
-          }
-        }
-      }
-      # Configure the Microsoft Azure Provider
-      provider "azurerm" {
-        features {}    
-      }
-      # Create a resource group
-      resource "azurerm_resource_group" "TResource" {
-        name     = "Terraform_Resource"
-        location = "East US"
-        tags = {
-          environment = "TerraformDemo" 
-        }
+            terraform {
+             required_providers {
+              azurerm = {
+                source  = "hashicorp/azurerm"
+                version = "2.84.0"
+               }
+              }
+             }
+           # Configure the Microsoft Azure Provider
+           provider "azurerm" {
+            features {}    
+           }
+           # Create a resource group
+           resource "azurerm_resource_group" "TResource" {
+             name     = "Terraform_Resource"
+             location = "East US"
+             tags = {
+               environment = "TerraformDemo" 
+           }
   
 2.	Save Service Principal credentials within GitHub Repository as secrets.
 
