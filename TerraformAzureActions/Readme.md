@@ -82,7 +82,7 @@ Implementing Steps for creating azure resources using GitHub action plans and te
 
 
 
-7. Verify the Azure Resource group created in the Azure cloud account.
+7. Verify the **Azure Resource group** created in the Azure cloud account.
 
    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/7.png)
  
