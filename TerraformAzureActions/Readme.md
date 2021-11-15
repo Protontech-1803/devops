@@ -30,7 +30,7 @@ Implementing Steps for creating azure resources using GitHub action plans and te
 
 3.	A new work flow is created in GitHub actions, where it automatically creates an yaml file.
 
-            ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/3.png)
+           ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/3.png)
 
  
 4.	Terraform Yaml File generated contains following Code.
@@ -70,20 +70,21 @@ Implementing Steps for creating azure resources using GitHub action plans and te
       
 5.	Once the Action has been completed, each step is reviewed to completion.
 
-            ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/5.png)
+           ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/5.png)
  
 
 6.	Select any of the workflow to view the execution details.
 
-            ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/6a.png)
+           ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/6a.png)
             
-            ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/6b.png)
+           
+           ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/6b.png)
 
 
 
 7.	Verify the Azure Resource group created in the Azure cloud account.
 
-            ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/7.png)
+           ![Alt text](https://github.com/Protontech-1803/devops/blob/master/TerraformAzureActions/img/7.png)
 
 
  
