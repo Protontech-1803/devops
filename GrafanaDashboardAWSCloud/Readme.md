@@ -4,7 +4,7 @@ Grafana dashboard is used for continuous monitoring the access to AWS lambda fun
 
 **This POC, shows Steps for creating Grafana Dashboard with CloudWatch for Continues Monitoring on AWS**
 
-1.	Login into AWS Console Account. 
+1. Login into AWS Console Account. 
 	
   a. Navigate to Amazon Managed Grafana home page and Create a Workspace as shown below.
 
@@ -33,7 +33,7 @@ Grafana dashboard is used for continuous monitoring the access to AWS lambda fun
  
  
 
-2.	In AWS Single Sign-On page create user group.
+2. In AWS Single Sign-On page create user group.
 
   a. Select Add user and provide user details as shown below.  
      
@@ -45,7 +45,7 @@ Grafana dashboard is used for continuous monitoring the access to AWS lambda fun
    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/2b.png)
  
 
-3.	In Grafana workspace, configure groups to add users and make admin users. 
+3. In Grafana workspace, configure groups to add users and make admin users. 
 
    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/3ai.png)
     
@@ -54,13 +54,13 @@ Grafana dashboard is used for continuous monitoring the access to AWS lambda fun
  
  
 
-4.	Verify the user is added, and copy required credentials with the URL as shown below.
+4. Verify the user is added, and copy required credentials with the URL as shown below.
 
    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/4.png)
  
 
 
-5.	On successful login into AWS Grafana dashboard.
+5. On successful login into AWS Grafana dashboard.
 
   a. It provides the Grafana dashboard with General Home page as shown below.
 
