@@ -8,28 +8,28 @@ Grafana dashboard is used for continuous monitoring the access to AWS lambda fun
 
 a.	Navigate to Amazon Managed Grafana home page and Create a Workspace as shown below.
 
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1a.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1a.png)
  
 b.	Workspace name and description is provided for workspace details.
 
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1b.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1b.png)
     
  
 c.	In Configuration setting page, enable the AWS Single Sign-On (AWS SSO) and Permission type as Service managed as shown below.
 
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1c.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1c.png)
     
  
 d.	In Service managed permission settings, select Current account and provide Data sources and notification channels.
 
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1d.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1d.png)
  
  
 e.	Review the details to create the Grafana workspace in AWS.
 
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1ei.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1ei.png)
     
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1eii.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GrafanaDashboardAWSCloud/img/1eii.png)
  
  
 
