@@ -14,8 +14,10 @@ To Start, with a monolithic application deployed on the GKE, which implements se
 		gcloud config set compute/zone us-central-f
       
    c. Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
+   
+   	  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
  
-2. Create a Google Kubernetes Engine (GKE) cluster.
+ 2. Create a Google Kubernetes Engine (GKE) cluster.
 
    a.Before creating a cluster, make sure the proper API's are enabled.  
 
