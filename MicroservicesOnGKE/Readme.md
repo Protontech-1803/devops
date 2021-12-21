@@ -6,20 +6,20 @@ To Start, with a monolithic application deployed on the GKE, which implements se
 
 1.Login into GCP Console.
 
-	a.Create a New Project. And Active the Cloud shell from the Cloud Console.
+  a.Create a New Project. And Active the Cloud shell from the Cloud Console.
 
-	b.Set the project and default zone, using the below commands.
+  b.Set the project and default zone, using the below commands.
 
 		gcloud config set project <PROJECT_ID>
 		gcloud config set compute/zone us-central-f
       
-	c.Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
+  c.Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
  
 2.Create a Google Kubernetes Engine (GKE) cluster.
 
-	a.Before creating a cluster, make sure the proper API's are enabled.  
+  a.Before creating a cluster, make sure the proper API's are enabled.  
 
-	b.Verify the Kubernetes cluster is created and related information is displayed in Google Cloud console.
+  b.Verify the Kubernetes cluster is created and related information is displayed in Google Cloud console.
 
 3.Deploy a monolith application to GKE cluster. 
 
