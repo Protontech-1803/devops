@@ -15,17 +15,29 @@ To Start, with a monolithic application deployed on the GKE, which implements se
       
    c. Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
    
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
  
  2. Create a Google Kubernetes Engine (GKE) cluster.
 
    a.Before creating a cluster, make sure the proper API's are enabled.  
+   
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/2ai.png)
+   
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/2aii.png)
 
    b.Verify the Kubernetes cluster is created and related information is displayed in Google Cloud console.
+   
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/2bi.png)
+   
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/2bii.png)
 
 3. Deploy a monolith application to GKE cluster. 
 
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/3.png)
+
 4. Verify the Deployment of monolith application. Find the external IP address for the monolith application. Copy the IP address. Point the browser to this URL (such as http:// IP address) to check if the monolith is accessible.
+
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/4.png)
  
 
 **The Following are steps to break the monolith application into Microservices.**
