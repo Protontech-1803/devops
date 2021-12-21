@@ -108,14 +108,21 @@ h. Verify the application is now hitting the new Orders microservice by going to
 
 2. Migrate Products to microservice.
 a. Create New products Microservice.
-i. Run the following commands to build a Docker container
- 
- 
+i. Run the following commands to build a Docker container.
 
-b. Deploy Container to GKE. Run the following command to deploy container to GKE
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2ai1.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2ai2.png)
+
+
+b. Deploy Container to GKE. Run the following command to deploy container to GKE.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2b.png)
  
 
 c. Expose GKE Container. Run the following command to Expose GKE Container.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2c.png)
  
 
 d. Reconfigure Monolith.
@@ -123,9 +130,17 @@ d. Reconfigure Monolith.
 i. The nano editor to replace the local URL with the IP address of our new Products microservices.
 
 ii. Run the following command to edit.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2dii1.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2dii2.png)
  
 	       
 e. Create Docker Container with Google Cloud Build.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2ei.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M2eii.png)
  
 
 f. Deploy Container to GKE. Verify the application is now hitting the new Orders microservice by going to the monolith application in the browser and navigating to the products page.
@@ -138,22 +153,42 @@ a. Create new Frontend Microservice.
 i. The same config for our Frontend microservice.
 
 ii. Run the following commands to copy our microservices URL config files to the Frontend microservice codebase.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M3aii1.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M3aii2.png)
  
 
 b. Create Docker Container with Google Cloud Build.
 
 i. Run the following commands to Create a Docker Container.
 
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M3bi1.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M3bi2.png)
+
 
 4. Deploy Container to GKE.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M4.png)
  
 
-5. Expose Google Kubernetes Engine
+5. Expose Google Kubernetes Engine.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M5.png)
  
 
 6. Find the External IP address. 
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M6.png)
  
 7. Copy the IP address. Point the browser to this URL (such as http:// IP address) to check if you are accessible.
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7i.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7ii.png)
+
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7iii.png)
    
 
 
