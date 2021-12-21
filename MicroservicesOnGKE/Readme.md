@@ -3,11 +3,16 @@
 This POC, show how to implement a simple Microservices based application on GKE. Here a Monolith application is split into three microservices. These microservices are built based on docker image and deployed on GKE, and made available as services a Kubernetes service type Load Balancer.
 
 To Start, with a monolithic application deployed on the GKE, which implements services such as UI, products and orders. The following are the brief steps to implement the same.
+
 1.	Login into GCP Console.
+
 a.	Create a New Project. And Active the Cloud shell from the Cloud Console.
+
 b.	Set the project and default zone, using the below commands.
-      gcloud config set project <PROJECT_ID>
-      gcloud config set compute/zone us-central-f
+
+	      gcloud config set project <PROJECT_ID>
+	      gcloud config set compute/zone us-central-f
+      
 c.	Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
  
 2.	Create a Google Kubernetes Engine (GKE) cluster.
