@@ -6,9 +6,9 @@ To Start, with a monolithic application deployed on the GKE, which implements se
 
 1.Login into GCP Console.
 
-   a.Create a New Project. And Active the Cloud shell from the Cloud Console.
+   a. Create a New Project. And Active the Cloud shell from the Cloud Console.
 
-   b.Set the project and default zone, using the below commands.
+   b. Set the project and default zone, using the below commands.
 
 		gcloud config set project <PROJECT_ID>
 		gcloud config set compute/zone us-central-f
