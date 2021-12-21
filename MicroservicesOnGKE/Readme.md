@@ -4,31 +4,31 @@ This POC, show how to implement a simple Microservices based application on GKE.
 
 To Start, with a monolithic application deployed on the GKE, which implements services such as UI, products and orders. The following are the brief steps to implement the same.
 
-1.	Login into GCP Console.
+1.Login into GCP Console.
 
-a.	Create a New Project. And Active the Cloud shell from the Cloud Console.
+	a.Create a New Project. And Active the Cloud shell from the Cloud Console.
 
-b.	Set the project and default zone, using the below commands.
+	b.Set the project and default zone, using the below commands.
 
 		gcloud config set project <PROJECT_ID>
 		gcloud config set compute/zone us-central-f
       
-c.	Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
+	c.Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
  
-2.	Create a Google Kubernetes Engine (GKE) cluster.
+2.Create a Google Kubernetes Engine (GKE) cluster.
 
-a.	Before creating a cluster, make sure the proper API's are enabled.  
+	a.Before creating a cluster, make sure the proper API's are enabled.  
 
-b.	Verify the Kubernetes cluster is created and related information is displayed in Google Cloud console.
+	b.Verify the Kubernetes cluster is created and related information is displayed in Google Cloud console.
 
-3.	Deploy a monolith application to GKE cluster. 
+3.Deploy a monolith application to GKE cluster. 
 
-4.	Verify the Deployment of monolith application. Find the external IP address for the monolith application. Copy the IP address. Point the browser to this URL (such as http:// IP address) to check if the monolith is accessible.
+4.Verify the Deployment of monolith application. Find the external IP address for the monolith application. Copy the IP address. Point the browser to this URL (such as http:// IP address) to check if the monolith is accessible.
  
 
 **The Following are steps to break the monolith application into Microservices.**
 
-1.	Migrate Orders to Microservice.
+1.Migrate Orders to Microservice.
 
 a.	Create New Orders Microservice. The first service breaks out is the Orders service and create a separate Docker container for this service. 
 
