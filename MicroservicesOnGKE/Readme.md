@@ -41,7 +41,7 @@ To Start, with a monolithic application deployed on the GKE, which implements se
  
 
 
-**The Following are steps to break the monolith application into Microservices.**
+# The Following are steps to break the monolith application into Microservices.**
 
 1. Migrate Orders to Microservice.
 
@@ -65,7 +65,7 @@ i. To deploy and manage applications on a GKE cluster, you must communicate with
 
 ii. The Deployment will be running only one Pod of the application. Run the following command to deploy the application.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1cii.png)
  
 
 d. Expose GKE Container.
@@ -76,7 +76,7 @@ ii. GKE creates an external IP and a Load Balancer for the application.
 
 iii. Find out the external IP that GKE provisioned for the application. Run the following command to expose the website to the Internet.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png) 
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1diii.png) 
 
 e. Reconfigure Monolith.
 
@@ -84,24 +84,26 @@ i. Update our config file in our monolith to point to the new Orders microservic
 
 ii. Editor to replace the local URL with the IP address of our new Orders microservice. Run the following command to edit.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1eii1.png)
+ 
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1eii2.png)
  
 
 f. Create Docker Container with Google Cloud Build. Run the following commands to create a docker container with google.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1fi.png)
  
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1fii.png)
  
  	
 g. Deploy Container to GKE as shown below.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1g.png)
  
 
 h. Verify the application is now hitting the new Orders microservice by going to the monolith application in the browser and navigating to the Orders page.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/1c.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M1h.png)
  
 
 2. Migrate Products to microservice.
