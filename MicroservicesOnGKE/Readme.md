@@ -15,7 +15,7 @@ To Start, with a monolithic application deployed on the GKE, which implements se
       
    c. Clone the source from git repository. Change to the directory and install the dependencies needed to run the application locally.
    
-   	 ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+   	![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
  
  2. Create a Google Kubernetes Engine (GKE) cluster.
 
