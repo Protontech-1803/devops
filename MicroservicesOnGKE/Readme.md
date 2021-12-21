@@ -184,11 +184,7 @@ i. Run the following commands to Create a Docker Container.
  
 7. Copy the IP address. Point the browser to this URL (such as http:// IP address) to check if you are accessible.
 
-![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7i.png)
-
-![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7ii.png)
-
-![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7iii.png)
+![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7i.png) ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7ii.png) ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MicroservicesOnGKE/img/M7iii.png)
    
 
 
