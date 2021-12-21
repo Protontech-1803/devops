@@ -41,7 +41,7 @@ To Start, with a monolithic application deployed on the GKE, which implements se
  
 
 
-# The Following are steps to break the monolith application into Microservices.**
+# The Following are steps to break the monolith application into Microservices
 
 1. Migrate Orders to Microservice.
 
