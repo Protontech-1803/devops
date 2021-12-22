@@ -78,11 +78,14 @@ Merged "Cluster" as current context in /Users/.kube/config
       # from employee-app directory
       kubectl create –f app.yaml 
 
-service/employee-app created
- 
-deployment/employee-app created
- 
-service/employee-helidon-lb created
+Output:
+
+  service/employee-app created
+
+  deployment/employee-app created
+
+  service/employee-helidon-lb created
+
   
 10. Run the app from the AKS cluster and fetch the public IP to verify the Employee-app application as shown below.
   
