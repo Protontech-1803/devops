@@ -72,19 +72,19 @@ Note: AKS and ACR created above should belong to same resource group.
 
        az aks get-credentials 
       
-  
-Merged "Cluster" as current context in /Users/.kube/config
+Output:  
+    Merged "Cluster" as current context in /Users/.kube/config
   
       # from employee-app directory
       kubectl create –f app.yaml 
 
 Output:
 
-   service/employee-app created
+    service/employee-app created
 
-   deployment/employee-app created
+    deployment/employee-app created
 
-   service/employee-helidon-lb created
+    service/employee-helidon-lb created
 
   
 10. Run the app from the AKS cluster and fetch the public IP to verify the Employee-app application as shown below.
