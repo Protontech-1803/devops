@@ -70,7 +70,8 @@ Note: AKS and ACR created above should belong to same resource group.
 
 9. Deploy the docker image to Azure Kubernetes cluster.
 
-      az aks get-credentials 
+       az aks get-credentials 
+      
   
 Merged "Cluster" as current context in /Users/.kube/config
   
