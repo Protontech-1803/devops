@@ -49,24 +49,24 @@ Note: AKS and ACR created above should belong to same resource group.
  
 5. Connect minikube to local docker environment.
 
-      & minikube -p minikube docker-env | Invoke-Expression
+       & minikube -p minikube docker-env | Invoke-Expression
       
 
 6. Build the docker image to be deployed. 
 
-      docker build -t employee-app . 
+       docker build -t employee-app . 
       
 
 7. Kubectl is pointing to AKS cluster as shown in image given below.
 
 8.  Push the docker image to Azure container registry using terminal commands.
 
-       az acr login --name <registry name>
+        az acr login --name <registry name>
  
 
-       # Tag the docker image
-       docker tag <image name> <registry name>.azurecr.io/employee-app
-       docker push <registry name>.azurecr.io/employee-app
+        # Tag the docker image
+        docker tag <image name> <registry name>.azurecr.io/employee-app
+        docker push <registry name>.azurecr.io/employee-app
 
 9. Deploy the docker image to Azure Kubernetes cluster.
 
