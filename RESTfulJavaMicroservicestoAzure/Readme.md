@@ -6,11 +6,17 @@ Deploying a microservices based RESTful Java application to Microsoft Azure. The
 **Given below are the prerequisites to implement this POC:**
 
 •	Java SE Development Kit - 8 or higher
+
 •	Maven - 3.5 or higher
+
 •	 Azure cloud account, Azure CLI installed on Windows PC
+
 •	Docker Desktop v 4.3.1
+
 •	 Kubectl v1.20 or higher
+
 •	 Minikube v1.24
+
 
 1. Run the microservice based Java application locally. 
 
@@ -53,11 +59,11 @@ Note: AKS and ACR created above should belong to same resource group.
 
 8.  Push the docker image to Azure container registry using terminal commands.
 
-      az acr login --name <registry name>
+       az acr login --name <registry name>
 
-      # Tag the docker image
-      docker tag <image name> <registry name>.azurecr.io/employee-app
-      docker push <registry name>.azurecr.io/employee-app
+       # Tag the docker image
+       docker tag <image name> <registry name>.azurecr.io/employee-app
+       docker push <registry name>.azurecr.io/employee-app
 
 9. Deploy the docker image to Azure Kubernetes cluster.
 
@@ -69,7 +75,9 @@ Merged "Cluster" as current context in /Users/.kube/config
       kubectl create –f app.yaml 
 
 service/employee-app created
+ 
 deployment/employee-app created
+ 
 service/employee-helidon-lb created
   
 10. Run the app from the AKS cluster and fetch the public IP to verify the Employee-app application as shown below.
