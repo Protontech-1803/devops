@@ -73,7 +73,7 @@ Note: AKS and ACR created above should belong to same resource group.
        az aks get-credentials 
       
 Output:  
-    Merged "Cluster" as current context in /Users/.kube/config
+      Merged "Cluster" as current context in /Users/.kube/config
   
       # from employee-app directory
       kubectl create –f app.yaml 
