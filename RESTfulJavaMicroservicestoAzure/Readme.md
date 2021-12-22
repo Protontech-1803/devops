@@ -76,8 +76,7 @@ Output:
 
       Merged "Cluster" as current context in /Users/.kube/config
       
-      
-  
+command:
       
       # from employee-app directory
       kubectl create –f app.yaml 
