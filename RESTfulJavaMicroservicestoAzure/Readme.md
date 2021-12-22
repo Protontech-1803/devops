@@ -51,7 +51,7 @@ Note: AKS and ACR created above should belong to same resource group.
 
 4. Open command prompt and start power shell and minikube.
 
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/RESTfulJavaMicroservicestoAzure/img/4.png)
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/RESTfulJavaMicroservicestoAzure/img/4a.png)
 
   
 5. Connect minikube to local docker environment.
