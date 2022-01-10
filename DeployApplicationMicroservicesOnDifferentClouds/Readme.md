@@ -10,7 +10,7 @@ A web application with frontend written in Python language and deployed in a Mic
 
 a. Create a public Elastic Container Registry (ECR) in AWS account. 
 
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DeployApplicationMicroservicesOnDifferentClouds/img/2.%20a.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DeployApplicationMicroservicesOnDifferentClouds/img/2.%20a.png)
  
 b. Tag Redis’ local docker image with the URI of the AWS Elastic container registry before pushing with AWS CLI.
 
