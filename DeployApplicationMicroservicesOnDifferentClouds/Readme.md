@@ -1,4 +1,4 @@
-# Deploy application with database and frontend microservices on different clouds
+# Deploy Application with Database and Frontend Microservices on different Clouds
 
 A web application with frontend written in Python language and deployed in a Microsoft Azure container uses Redis database from Amazon web services (AWS) container.
 
