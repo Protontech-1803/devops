@@ -24,9 +24,9 @@ b. Tag Redis’ local docker image with the URI of the AWS Elastic container reg
 
 a. Create a resource group for Azure Kubernetes service, Azure Container Registry from  Azure CLI in Windows Command prompt.
 
-Note: AKS and ACR created above should belong to same resource group.
+**Note:** AKS and ACR created above should belong to same resource group.
 
-b. Verify the .yaml file shows container images on different clouds before deployment.
+b. Verify the **.yaml** file shows container images on different clouds before deployment.
 
 
       apiVersion: apps/v1
