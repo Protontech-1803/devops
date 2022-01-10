@@ -4,11 +4,13 @@ A web application with frontend written in Python language and deployed in a Mic
 
 1. Verify sample web application deployed using Docker containers works locally.
 
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DeployApplicationMicroservicesOnDifferentClouds/img/1.png)
    
 2. Push the Redis database to AWS.
 
 a. Create a public Elastic Container Registry (ECR) in AWS account. 
 
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DeployApplicationMicroservicesOnDifferentClouds/img/2. a.png)
  
 b. Tag Redis’ local docker image with the URI of the AWS Elastic container registry before pushing with AWS CLI.
 
@@ -55,5 +57,7 @@ b. Verify the .yaml file shows container images on different clouds before deplo
       ……
 
 4. Notice that only the IP address changes after deployment with microservices from different clouds.
+
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DeployApplicationMicroservicesOnDifferentClouds/img/4.png)
 
 
