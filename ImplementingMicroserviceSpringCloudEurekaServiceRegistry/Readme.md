@@ -1,4 +1,5 @@
 ##Implementing Microservices in Spring Cloud Eureka Service Registry##
+
 To register a microservice in spring cloud eureka service registry, create a service registry component for eureka server and annotate in main class. Further, create two microservices: For example, *order_service* and *payment_service*. In microservices, configure the packages and add eureka client annotation to register to eureka server and configure application.yml file to get output in the browser. Eureka Server is an application where microservices can register themselves so others can discover them. Each microservice registers into Eureka server and eureka server knows all client applications running on each port and IP address.
 
 The steps to register Microservice with Eureka Server are as follows: 
@@ -24,11 +25,11 @@ a.	Create spring project for order_service and add the dependencies.
  
 b.	Create Order class in *entity* package and configure the code.
   
-   [Alt text](https://github.com/Protontech-1803/devops/blob/master/ImplementingMicroserviceSpringCloudEurekaServiceRegistry/img/2b.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/ImplementingMicroserviceSpringCloudEurekaServiceRegistry/img/2b.png)
   
 c.	Create *OrderService* class in *service* package and configure the code.
  
-    [Alt text](https://github.com/Protontech-1803/devops/blob/master/ImplementingMicroserviceSpringCloudEurekaServiceRegistry/img/2c.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/ImplementingMicroserviceSpringCloudEurekaServiceRegistry/img/2c.png)
  
 d.	Create *OrderController* class in *controller* package and configure the code.
  
