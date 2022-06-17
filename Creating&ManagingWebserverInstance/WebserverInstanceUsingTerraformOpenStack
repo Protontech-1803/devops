@@ -1,9 +1,9 @@
 # Creating and Managing Webserver Instance Using Terraform OpenStack Provider
 
-
 In this POC, terraform is used to create a Webserver instance on open stack, using open stack services.  To implement this POC, a Centos VM is used. Using Putty client connection is established to the Centos VM. 
-1.	Install OpenStack using Packsack Installation using the below steps:
-Step 1: Make the IP static and disable the selinux 
+
+I. Install OpenStack using Packsack Installation using the below steps:
+1. Make the IP static and disable the selinux 
                   $ sudo systemctl disable firewalld
                   $ sudo systemctl stop firewalld
                   $ sudo systemctl disable NetworkManager
@@ -13,7 +13,7 @@ Step 1: Make the IP static and disable the selinux
 
                # egrep --color 'vmx|svm' /proc/cpuinfo | wc –l
 
-Step 2:   Update the VM
+2. Update the VM
                
                 # sudo yum update -y   
 
