@@ -105,4 +105,4 @@ c.	Create the instance by applying the script using the command # terraform appl
 5.	To Delete the instance created use the command # terraform destroy, as shown below.
 	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.5.png)
 	
-As illustrated in this POC, Terraform Openstack provider is used to manage the infrastructure for instances on openstack.
+As illustrated, Terraform Openstack provider is used to manage the infrastructure for instances on openstack.
