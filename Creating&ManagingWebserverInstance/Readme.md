@@ -62,3 +62,47 @@ Step 8:   Run the PackStack installer with the answer file we just modified acco
            # packstack --answer-file=/root/answer.txt
          			 
 Step 9: To access OpenStack Dashboard, open up a browser and visit URL https://<ipaddress>/dashboard, login with configured credentials.
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.1.png)
+	
+Step 10: On successful login, on navigation to overview page, the page lists the instances that are running, storage used, ram allocation, CPUs, security groups etc.
+        ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.2.png)	
+2.	Install Terraform in the VM using below steps
+	
+Step 1: Get Unzip if not available on the VM using the command.  
+	
+     	  #    yum install wget unzip
+	
+Step 2: Update the System
+	
+           # yum update – y 
+	
+ Step 3: Download Terraform Package
+	
+	#wget https://releases.hashicorp.com/terraform/1.1.2/terraform_1.1.2_linux_amd64.z
+	
+ Step 4: Unzip Package
+	
+           #   unzip terraform_1.1.2_linux_amd64.zip -d /usr/local/bin/
+	
+Step 5: Check Terraform Version
+	
+           # terraform-v
+
+3.	Create a file named main.tf file using an editor, with below script. The Script is used to create the webserver instance on execution in terraform.
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.3.png)
+	
+4.	Execute above main.tf Terraform Script using the commands init, plan and apply, shown below.
+	
+a.	Initialize Terraform with the command # terraform init 
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.4.a.png)
+	
+b.	Check that the changes proposed with the command # terraform plan
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.4.b.png)
+	
+c.	Create the instance by applying the script using the command # terraform apply
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.4.c.png)
+	
+5.	To Delete the instance created use the command # terraform destroy, as shown below.
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/Creating%26ManagingWebserverInstance/img/1.5.png)
+	
+As illustrated in this POC, Terraform Openstack provider is used to manage the infrastructure for instances on openstack.
